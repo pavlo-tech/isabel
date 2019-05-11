@@ -1,0 +1,13 @@
+CLOUDf48.bin.f32
+Pf48.bin.f32
+PRECIPf48.bin.f32
+QCLOUDf48.bin.f32
+QGRAUPf48.bin.f32
+QICEf48.bin.f32
+QRAINf48.bin.f32
+QSNOWf48.bin.f32
+QVAPORf48.bin.f32
+TCf48.bin.f32
+Uf48.bin.f32
+Vf48.bin.f32
+Wf48.bin.f32
