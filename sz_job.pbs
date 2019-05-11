@@ -17,7 +17,7 @@ cd $PBS_O_WORKDIR
 
 compressor=SZ-2.0.2.1
 tol=1E-${PBS_ARRAY_INDEX}
-mode=0
+mode=1
 num_iter=100
 
 simple_dll=./compressors/$compressor/sz_cycle.dll
