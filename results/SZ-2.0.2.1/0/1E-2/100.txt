@@ -84,3 +84,12 @@ STD_DEV =	0.000000E+00
 Time =	0.000000E+00
 STD_DEV =	0.000000E+00
 /scratch2/ptriant/100x500x500/QVAPORf48.bin.f32
+running SZ
+0.01
+MODE= ABS
+Compression Factor =	1646.000000
+Time =	8.500000E+01
+STD_DEV =	8.415076E+01
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/TCf48.bin.f32

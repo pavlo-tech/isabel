@@ -1,1 +1,10 @@
 /scratch2/ptriant/100x500x500/CLOUDf48.bin.f32
+running SZ
+2.04795e-07
+MODE= REL
+Compression Factor =	40.000000
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/Pf48.bin.f32
