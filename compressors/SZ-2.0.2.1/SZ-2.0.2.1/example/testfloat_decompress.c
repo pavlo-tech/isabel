@@ -88,7 +88,13 @@ int main(int argc, char * argv[])
     cost_start();
     float *data = SZ_decompress(SZ_FLOAT, bytes, byteLength, r5, r4, r3, r2, r1);
     cost_end();
-    //float data[r3][r2][r1];
+    
+		FILE*fp = fopen("output.txt","w");
+		int l;
+		for (l = 0; l < r1 * r2 * r3; ++l) fprintf(fp,"%.6f\n",data[l]);
+		fclose(fp);
+
+		//float data[r3][r2][r1];
     //nbEle = SZ_decompress_args(SZ_FLOAT, bytes, *byteLength, data, r5, r4, r3, r2, r1);
     
     //writeFloatData(data, nbEle, outputFilePath);

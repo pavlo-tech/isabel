@@ -1,0 +1,34 @@
+./results/SZ-2.0.2.1/1/1E-10/100.txt
+mkdir: cannot create directory ‘./results/SZ-2.0.2.1’: File exists
+mkdir: cannot create directory ‘./results/SZ-2.0.2.1/1’: File exists
+mkdir: cannot create directory ‘./results/SZ-2.0.2.1/1/1E-10’: File exists
+/scratch2/ptriant/100x500x500/CLOUDf48.bin.f32
+/scratch2/ptriant/100x500x500/Pf48.bin.f32
+/scratch2/ptriant/100x500x500/PRECIPf48.bin.f32
+/scratch2/ptriant/100x500x500/QCLOUDf48.bin.f32
+/scratch2/ptriant/100x500x500/QGRAUPf48.bin.f32
+/scratch2/ptriant/100x500x500/QICEf48.bin.f32
+/scratch2/ptriant/100x500x500/QRAINf48.bin.f32
+/scratch2/ptriant/100x500x500/QSNOWf48.bin.f32
+/scratch2/ptriant/100x500x500/QVAPORf48.bin.f32
+/scratch2/ptriant/100x500x500/TCf48.bin.f32
+/scratch2/ptriant/100x500x500/Uf48.bin.f32
+/scratch2/ptriant/100x500x500/Vf48.bin.f32
+/scratch2/ptriant/100x500x500/Wf48.bin.f32
+/var/spool/pbs/mom_priv/jobs/6004572[10].pbs02.SC: line 43: 361483 Segmentation fault      (core dumped) python3 parser_compressor.py $filePath $tol $num_iter $simple_dll $config $mode >> $output_file
+ 
+ 
++------------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES REQUESTED | 
++------------------------------------------+ 
+ 
+mem=64gb,ncpus=4,walltime=240:00:00
+ 
+ 
++-------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES USED | 
++-------------------------------------+ 
+ 
+cpupercent=104,cput=07:33:38,mem=1174056kb,ncpus=4,vmem=1880416kb,walltime=07:34:48
+ 
+ 

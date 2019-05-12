@@ -3,12 +3,10 @@ import sys
 import ctypes
 import re
 
+nz=100; ny=500; nx=500;
+#nz=128; ny=8; nx=8;
 
-# delete this later
-#fileName='/scratch2/ptriant/100x500x500/QCLOUDf48.bin.f32'
-#TOL=1E-1
-#ITER=100
-#compressor_path='./compressors/SZ-2.0.2.1/sz_cycle.dll'
+
 
 fileName=sys.argv[1]
 TOL=float(sys.argv[2])
@@ -22,10 +20,17 @@ cycle=compressor_dll.cycle_float
 
 # copy data into 3d array
 arr = np.fromfile(fileName, dtype=np.dtype('<f'))
-iArr=np.reshape(arr,(100,500,500))
+
+'''
+with open("input.txt","w") as f:
+	for i in range(nz*nx*ny):
+		f.write(str(arr[i]) + "\n")
+'''
+
+iArr=np.reshape(arr,(nz,ny,nx))
 
 # create output array
-oArr = np.zeros((100, 500, 500), dtype=np.dtype('<f'))
+oArr = np.zeros((nz,ny,nx), dtype=np.dtype('<f'))
 
 
 if ZFP:
@@ -34,8 +39,6 @@ if ZFP:
 else:
 	print( 'running SZ')
 
-	#sz_config='./compressors/SZ-2.0.2.1/sz.config'
-	#mode=0
 	sz_config=sys.argv[5]
 	mode=int(sys.argv[6])
 
@@ -45,11 +48,19 @@ else:
 	SZ_Init(ctypes.c_char_p(sz_config.encode('utf-8')))
 
 	cycle(iArr.ctypes.data_as(ctypes.POINTER(ctypes.c_float)),
-		500,500,100, ctypes.c_double(TOL), ITER,
+		nx,ny,nz, ctypes.c_double(TOL), ITER,
 		oArr.ctypes.data_as(ctypes.POINTER(ctypes.c_float)),
 		ctypes.c_int(mode)) 
 
+	#for testing, delete later
+	'''
+	oarr=oArr.flatten()
+	with open("output.txt","w") as f:
+		for i in range(nz*nx*ny):
+			f.write(str(oarr[i]) + "\n")
+	'''
 	SZ_Finalize()
+
 
 	print(np.max(np.abs(iArr.flatten() - oArr.flatten())))
 

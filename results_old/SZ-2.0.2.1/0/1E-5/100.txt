@@ -1,0 +1,130 @@
+CLOUDf48.bin.f32
+Pf48.bin.f32
+PRECIPf48.bin.f32
+QCLOUDf48.bin.f32
+QGRAUPf48.bin.f32
+QICEf48.bin.f32
+QRAINf48.bin.f32
+QSNOWf48.bin.f32
+QVAPORf48.bin.f32
+TCf48.bin.f32
+Uf48.bin.f32
+Vf48.bin.f32
+Wf48.bin.f32
+/scratch2/ptriant/100x500x500/CLOUDf48.bin.f32
+running SZ
+1e-05
+MODE= ABS
+Compression Factor =	113.000000
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/Pf48.bin.f32
+running SZ
+1e-05
+MODE= ABS
+Compression Factor =	1.000000
+Time =	1.700000E+03
+STD_DEV =	1.683000E+03
+Time =	2.010000E+02
+STD_DEV =	1.989900E+02
+/scratch2/ptriant/100x500x500/PRECIPf48.bin.f32
+running SZ
+1e-05
+MODE= ABS
+Compression Factor =	126.000000
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QCLOUDf48.bin.f32
+running SZ
+1e-05
+MODE= ABS
+Compression Factor =	183.000000
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QGRAUPf48.bin.f32
+running SZ
+1e-05
+MODE= ABS
+Compression Factor =	313.000000
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QICEf48.bin.f32
+running SZ
+1e-05
+MODE= ABS
+Compression Factor =	296.000000
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QRAINf48.bin.f32
+running SZ
+1e-05
+MODE= ABS
+Compression Factor =	249.000000
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QSNOWf48.bin.f32
+running SZ
+1e-05
+MODE= ABS
+Compression Factor =	325.000000
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QVAPORf48.bin.f32
+running SZ
+9.99999e-06
+MODE= ABS
+Compression Factor =	21.000000
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/TCf48.bin.f32
+running SZ
+9.99961e-06
+MODE= ABS
+Compression Factor =	2.000000
+Time =	3.000000E+02
+STD_DEV =	2.970000E+02
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+/scratch2/ptriant/100x500x500/Uf48.bin.f32
+running SZ
+9.99985e-06
+MODE= ABS
+Compression Factor =	2.000000
+Time =	3.000000E+02
+STD_DEV =	2.970000E+02
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+/scratch2/ptriant/100x500x500/Vf48.bin.f32
+running SZ
+9.99961e-06
+MODE= ABS
+Compression Factor =	2.000000
+Time =	3.020000E+02
+STD_DEV =	2.989800E+02
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+/scratch2/ptriant/100x500x500/Wf48.bin.f32
+running SZ
+9.99999e-06
+MODE= ABS
+Compression Factor =	3.000000
+Time =	2.000000E+02
+STD_DEV =	1.980000E+02
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01

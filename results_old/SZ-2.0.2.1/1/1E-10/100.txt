@@ -1,0 +1,109 @@
+/scratch2/ptriant/100x500x500/CLOUDf48.bin.f32
+running SZ
+2.04795e-13
+MODE= REL
+Compression Factor =	5.000000
+Time =	1.702000E+03
+STD_DEV =	1.684980E+03
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+/scratch2/ptriant/100x500x500/Pf48.bin.f32
+running SZ
+6.63102e-07
+MODE= REL
+Compression Factor =	1.000000
+Time =	1.324000E+03
+STD_DEV =	1.310760E+03
+Time =	2.160000E+02
+STD_DEV =	2.138403E+02
+/scratch2/ptriant/100x500x500/PRECIPf48.bin.f32
+running SZ
+7.50586e-13
+MODE= REL
+Compression Factor =	2.000000
+Time =	2.300000E+03
+STD_DEV =	2.277000E+03
+Time =	2.000000E+02
+STD_DEV =	1.980000E+02
+/scratch2/ptriant/100x500x500/QCLOUDf48.bin.f32
+running SZ
+2.04795e-13
+MODE= REL
+Compression Factor =	12.000000
+Time =	8.000000E+02
+STD_DEV =	7.920000E+02
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QGRAUPf48.bin.f32
+running SZ
+7.29519e-13
+MODE= REL
+Compression Factor =	3.000000
+Time =	1.400000E+03
+STD_DEV =	1.386000E+03
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+/scratch2/ptriant/100x500x500/QICEf48.bin.f32
+running SZ
+8.46364e-14
+MODE= REL
+Compression Factor =	6.000000
+Time =	1.500000E+03
+STD_DEV =	1.485000E+03
+Time =	9.000000E+00
+STD_DEV =	8.914595E+00
+/scratch2/ptriant/100x500x500/QRAINf48.bin.f32
+running SZ
+6.33465e-13
+MODE= REL
+Compression Factor =	3.000000
+Time =	1.500000E+03
+STD_DEV =	1.485000E+03
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+/scratch2/ptriant/100x500x500/QSNOWf48.bin.f32
+running SZ
+8.56026e-14
+MODE= REL
+Compression Factor =	2.000000
+Time =	1.900000E+03
+STD_DEV =	1.881000E+03
+Time =	1.320000E+02
+STD_DEV =	1.306808E+02
+/scratch2/ptriant/100x500x500/QVAPORf48.bin.f32
+running SZ
+2.04103e-12
+MODE= REL
+Compression Factor =	1.000000
+Time =	2.000000E+03
+STD_DEV =	1.980000E+03
+Time =	2.330000E+02
+STD_DEV =	2.306705E+02
+/scratch2/ptriant/100x500x500/TCf48.bin.f32
+running SZ
+1.05988e-08
+MODE= REL
+Compression Factor =	1.000000
+Time =	1.200000E+03
+STD_DEV =	1.188000E+03
+Time =	2.000000E+02
+STD_DEV =	1.980000E+02
+/scratch2/ptriant/100x500x500/Uf48.bin.f32
+running SZ
+9.25502e-09
+MODE= REL
+Compression Factor =	1.000000
+Time =	2.000000E+03
+STD_DEV =	1.980000E+03
+Time =	2.000000E+02
+STD_DEV =	1.980000E+02
+/scratch2/ptriant/100x500x500/Vf48.bin.f32
+running SZ
+9.31323e-09
+MODE= REL
+Compression Factor =	1.000000
+Time =	2.100000E+03
+STD_DEV =	2.079000E+03
+Time =	2.000000E+02
+STD_DEV =	1.980000E+02
+/scratch2/ptriant/100x500x500/Wf48.bin.f32

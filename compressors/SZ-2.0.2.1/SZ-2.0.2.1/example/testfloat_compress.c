@@ -77,7 +77,13 @@ int main(int argc, char * argv[])
     //float *revValue = (float *)malloc(sizeof(float));
     //*revValue = 1.0E36;
    
-    size_t outSize; 
+		FILE*fp = fopen("input.txt","w");
+    int l;
+    for (l = 0; l < r1*r2*r3; ++l) fprintf(fp,"%.6f\n",data[l]);
+    fclose(fp);
+
+    
+		size_t outSize; 
     //char *bytes = (char *)malloc(nbEle*sizeof(float)); //
     //SZ_compress_args2(SZ_FLOAT, data, bytes, &outSize, ABS, 0.0001, 0.0001, r5, r4, r3, r2, r1);    
     //char *bytes = SZ_compress_rev(SZ_FLOAT, data, revValue, &outSize, r5, r4, r3, r2, r1);
