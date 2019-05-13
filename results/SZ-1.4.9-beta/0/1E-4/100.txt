@@ -1,0 +1,130 @@
+/scratch2/ptriant/100x500x500/CLOUDf48.bin.f32
+running SZ
+9.99999e-05
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.9-beta/sz.config) ...
+MODE= ABS
+Compression Factor =	370.000000
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/Pf48.bin.f32
+running SZ
+0.00012207
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.9-beta/sz.config) ...
+MODE= ABS
+Compression Factor =	2.000000
+Time =	9.000000E+02
+STD_DEV =	8.910000E+02
+Time =	1.970000E+02
+STD_DEV =	1.950301E+02
+/scratch2/ptriant/100x500x500/PRECIPf48.bin.f32
+running SZ
+0.0001
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.9-beta/sz.config) ...
+MODE= ABS
+Compression Factor =	497.000000
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QCLOUDf48.bin.f32
+running SZ
+9.99999e-05
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.9-beta/sz.config) ...
+MODE= ABS
+Compression Factor =	400.000000
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QGRAUPf48.bin.f32
+running SZ
+9.99999e-05
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.9-beta/sz.config) ...
+MODE= ABS
+Compression Factor =	1332.000000
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QICEf48.bin.f32
+running SZ
+9.99994e-05
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.9-beta/sz.config) ...
+MODE= ABS
+Compression Factor =	4042.000000
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QRAINf48.bin.f32
+running SZ
+9.99996e-05
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.9-beta/sz.config) ...
+MODE= ABS
+Compression Factor =	958.000000
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QSNOWf48.bin.f32
+running SZ
+9.99999e-05
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.9-beta/sz.config) ...
+MODE= ABS
+Compression Factor =	2157.000000
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QVAPORf48.bin.f32
+running SZ
+0.0001
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.9-beta/sz.config) ...
+MODE= ABS
+Compression Factor =	43.000000
+Time =	3.000000E+02
+STD_DEV =	2.970000E+02
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/TCf48.bin.f32
+running SZ
+0.000101089
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.9-beta/sz.config) ...
+MODE= ABS
+Compression Factor =	3.000000
+Time =	2.000000E+02
+STD_DEV =	1.980000E+02
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+/scratch2/ptriant/100x500x500/Uf48.bin.f32
+running SZ
+0.000100136
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.9-beta/sz.config) ...
+MODE= ABS
+Compression Factor =	3.000000
+Time =	2.000000E+02
+STD_DEV =	1.980000E+02
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+/scratch2/ptriant/100x500x500/Vf48.bin.f32
+running SZ
+0.000101089
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.9-beta/sz.config) ...
+MODE= ABS
+Compression Factor =	3.000000
+Time =	2.000000E+02
+STD_DEV =	1.980000E+02
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+/scratch2/ptriant/100x500x500/Wf48.bin.f32
+running SZ
+0.000100017
+[SZ] Reading SZ configuration file (./compressors/SZ-1.4.9-beta/sz.config) ...
+MODE= ABS
+Compression Factor =	4.000000
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01

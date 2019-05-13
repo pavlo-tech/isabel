@@ -126,6 +126,112 @@ void cycle(double* iArray, int nx, int ny, int nz, double tolerance, int iterati
 	//fprintf(stdout,"----------\n");
 	//print_3d_array(oArray,nx,ny,nz);
 }
+void cycle_float(float* iArray, int nx, int ny, int nz, double tolerance, int iterations, float* oArray)
+{
+
+	int i;
+  double cRatio;
+  double cTimesAVG;
+  double cTimesSTDDEV;
+  double dTimesAVG;
+  double dTimesSTDDEV;
+	double cTimes[iterations];
+  double dTimes[iterations];
+
+	// store iArray in oArray
+	memcpy(oArray, iArray, nx * ny * nz * sizeof(float));
+	
+	clock_t stime,etime;
+	
+	int status = 0;
+  zfp_type type;     /* array scalar type */
+  zfp_field* field;  /* array meta data */
+  zfp_stream* zfp;   /* compressed stream */
+  void* buffer;      /* storage for compressed stream */
+  size_t bufsize;    /* byte size of compressed buffer */
+  bitstream* stream; /* bit stream to write to or read from */
+  size_t zfpsize;    /* byte size of compressed stream */
+
+  /* allocate meta data for the 3D array a[nz][ny][nx] */
+  type = zfp_type_float;
+  field = zfp_field_3d(oArray, type, nx, ny, nz);
+
+  /* allocate meta data for a compressed stream */
+  zfp = zfp_stream_open(NULL);
+  zfp_stream_set_accuracy(zfp, tolerance);
+
+  /* allocate buffer for compressed data */
+  bufsize = zfp_stream_maximum_size(zfp, field);
+  buffer = malloc(bufsize);
+
+  /* associate bit stream with allocated buffer */
+  stream = stream_open(buffer, bufsize);
+  zfp_stream_set_bit_stream(zfp, stream);
+
+	/* compress several times */
+  double astime, aetime;
+  astime = clock();
+	for (i = 0; i < iterations; ++i)
+  {
+  	zfp_stream_rewind(zfp);
+
+		stime = clock();
+		zfpsize = zfp_compress(zfp, field);
+		etime = clock();
+
+		cTimes[i] = (double)(etime - stime) / CLOCKS_PER_SEC;
+	}
+  aetime = clock();
+  cTimesAVG = (aetime - astime) / (CLOCKS_PER_SEC * iterations);
+
+	if (!zfpsize)
+	{
+  	fprintf(stderr, "compression failed\n");
+	}
+
+	/* compute compression ratio */
+	cRatio = ((double)nx) * ((double)ny) * ((double)nz) * sizeof(float) / zfpsize;
+
+	/* decompress several times */
+	astime = clock();
+	for (i = 0; i < iterations; ++i)
+ 	{
+		zfp_stream_rewind(zfp);
+	
+		stime = clock();
+		status = zfp_decompress(zfp, field);	
+		etime = clock();  
+
+		dTimes[i] = (double)(etime - stime) / CLOCKS_PER_SEC;
+	}
+  aetime = clock();
+  dTimesAVG = (aetime - astime) / (CLOCKS_PER_SEC * iterations);
+
+	if (!status)
+	{
+  	fprintf(stderr, "decompression failed\n");
+  }		
+
+  
+	/* clean up */
+  zfp_field_free(field);
+  zfp_stream_close(zfp);
+  stream_close(stream);
+  free(buffer);
+
+  /* calculate avg & stddev for cTime and dTime*/
+  //cTimesAVG = calculateAVG(cTimes, iterations);
+  //dTimesAVG = calculateAVG(dTimes, iterations);
+  cTimesSTDDEV = calculateSTDDEV(cTimes, iterations);
+  dTimesSTDDEV =  calculateSTDDEV(dTimes, iterations);	
+
+  /* print stats to user */
+  printf("Compression Factor =\t%lf\n",cRatio);
+  printf("Time =\t%E\n",cTimesAVG);
+  printf("STD_DEV =\t%E\n",cTimesSTDDEV);
+  printf("Time =\t%E\n",dTimesAVG);
+  printf("STD_DEV =\t%E\n",dTimesSTDDEV);
+}
 
 void cycle1D(double* iArray, int nx, double tolerance, int iterations, double* oArray)
 {
@@ -175,7 +281,7 @@ void cycle1D(double* iArray, int nx, double tolerance, int iterations, double* o
 		zfpsize = zfp_compress(zfp, field);
 		etime = clock();
 
-		cTimes[i] = (double)(etime - stime) / (CLOCKS_PER_SEC * iterations);
+		cTimes[i] = (double)(etime - stime) / CLOCKS_PER_SEC;
 	}
 	
   
@@ -194,7 +300,7 @@ void cycle1D(double* iArray, int nx, double tolerance, int iterations, double* o
 		status = zfp_decompress(zfp, field);	
 		etime = clock();  
 
-		dTimes[i] = (double)(etime - stime) / (CLOCKS_PER_SEC * iterations);
+		dTimes[i] = (double)(etime - stime) / CLOCKS_PER_SEC;
 	}
 
 	if (!status)

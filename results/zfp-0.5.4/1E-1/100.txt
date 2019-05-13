@@ -1,0 +1,250 @@
+/scratch2/ptriant/100x500x500/CLOUDf48.bin.f32
+running ZFP
+0.00204795
+Compression Factor =	2850.302132
+Time =	5.030000E-02
+STD_DEV =	0.000000E+00
+Time =	3.260000E-02
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/Pf48.bin.f32
+running ZFP
+0.0171509
+Compression Factor =	7.265657
+Time =	7.620000E-01
+STD_DEV =	0.000000E+00
+Time =	3.793000E-01
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/PRECIPf48.bin.f32
+running ZFP
+0.00446789
+Compression Factor =	3028.834504
+Time =	4.910000E-02
+STD_DEV =	0.000000E+00
+Time =	3.140000E-02
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QCLOUDf48.bin.f32
+running ZFP
+0.00204795
+Compression Factor =	2894.858731
+Time =	4.980000E-02
+STD_DEV =	0.000000E+00
+Time =	3.360000E-02
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QGRAUPf48.bin.f32
+running ZFP
+0.00469007
+Compression Factor =	3685.141509
+Time =	4.680000E-02
+STD_DEV =	0.000000E+00
+Time =	3.070000E-02
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QICEf48.bin.f32
+running ZFP
+0.000976562
+Compression Factor =	4007.052412
+Time =	4.550000E-02
+STD_DEV =	0.000000E+00
+Time =	2.660000E-02
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QRAINf48.bin.f32
+running ZFP
+0.00545537
+Compression Factor =	3373.363918
+Time =	4.910000E-02
+STD_DEV =	0.000000E+00
+Time =	3.210000E-02
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QSNOWf48.bin.f32
+running ZFP
+0.000976562
+Compression Factor =	4046.617028
+Time =	4.670000E-02
+STD_DEV =	0.000000E+00
+Time =	2.980000E-02
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QVAPORf48.bin.f32
+running ZFP
+0.0134277
+Compression Factor =	390.741001
+Time =	1.327000E-01
+STD_DEV =	0.000000E+00
+Time =	6.150000E-02
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/TCf48.bin.f32
+/scratch2/ptriant/100x500x500/CLOUDf48.bin.f32
+running ZFP
+0.00204795
+Compression Factor =	1425.151066
+Time =	5.170000E-02
+STD_DEV =	5.118302E-02
+Time =	3.250000E-02
+STD_DEV =	3.217505E-02
+/scratch2/ptriant/100x500x500/Pf48.bin.f32
+running ZFP
+0.0171509
+Compression Factor =	3.632829
+Time =	7.585000E-01
+STD_DEV =	7.509150E-01
+Time =	3.822000E-01
+STD_DEV =	3.783780E-01
+/scratch2/ptriant/100x500x500/PRECIPf48.bin.f32
+running ZFP
+0.00446789
+Compression Factor =	1514.417252
+Time =	5.030000E-02
+STD_DEV =	4.979703E-02
+Time =	2.890000E-02
+STD_DEV =	2.861104E-02
+/scratch2/ptriant/100x500x500/QCLOUDf48.bin.f32
+running ZFP
+0.00204795
+Compression Factor =	1447.429365
+Time =	4.930000E-02
+STD_DEV =	4.880703E-02
+Time =	3.040000E-02
+STD_DEV =	3.009605E-02
+/scratch2/ptriant/100x500x500/QGRAUPf48.bin.f32
+running ZFP
+0.00469007
+Compression Factor =	1842.570755
+Time =	4.770000E-02
+STD_DEV =	4.722302E-02
+Time =	2.810000E-02
+STD_DEV =	2.781903E-02
+/scratch2/ptriant/100x500x500/QICEf48.bin.f32
+running ZFP
+0.000976562
+Compression Factor =	2003.526206
+Time =	4.580000E-02
+STD_DEV =	4.534203E-02
+Time =	2.920000E-02
+STD_DEV =	2.890806E-02
+/scratch2/ptriant/100x500x500/QRAINf48.bin.f32
+running ZFP
+0.00545537
+Compression Factor =	1686.681959
+Time =	4.980000E-02
+STD_DEV =	4.930201E-02
+Time =	3.200000E-02
+STD_DEV =	3.168004E-02
+/scratch2/ptriant/100x500x500/QSNOWf48.bin.f32
+running ZFP
+0.000976562
+Compression Factor =	2023.308514
+Time =	4.680000E-02
+STD_DEV =	4.633203E-02
+Time =	2.680000E-02
+STD_DEV =	2.653204E-02
+/scratch2/ptriant/100x500x500/QVAPORf48.bin.f32
+running ZFP
+0.0134277
+Compression Factor =	195.370501
+Time =	1.325000E-01
+STD_DEV =	1.311750E-01
+Time =	6.160000E-02
+STD_DEV =	6.098403E-02
+/scratch2/ptriant/100x500x500/TCf48.bin.f32
+running ZFP
+0.0176811
+Compression Factor =	7.186080
+Time =	6.678000E-01
+STD_DEV =	6.611220E-01
+Time =	2.789000E-01
+STD_DEV =	2.761110E-01
+/scratch2/ptriant/100x500x500/Uf48.bin.f32
+running ZFP
+0.0170088
+Compression Factor =	6.408137
+Time =	6.257000E-01
+STD_DEV =	6.194430E-01
+Time =	3.078000E-01
+STD_DEV =	3.047220E-01
+/scratch2/ptriant/100x500x500/Vf48.bin.f32
+running ZFP
+0.0169761
+Compression Factor =	6.477560
+Time =	6.313000E-01
+STD_DEV =	6.249870E-01
+Time =	3.045000E-01
+STD_DEV =	3.014550E-01
+/scratch2/ptriant/100x500x500/Wf48.bin.f32
+running ZFP
+0.0176011
+Compression Factor =	9.626707
+Time =	4.398000E-01
+STD_DEV =	4.354020E-01
+Time =	2.309000E-01
+STD_DEV =	2.285910E-01
+/scratch2/ptriant/100x500x500/CLOUDf48.bin.f32
+running ZFP
+0.00204795
+Compression Factor =	1425.151066
+Time =	4.820000E-02
+STD_DEV =	4.771802E+00
+Time =	2.800000E-02
+STD_DEV =	2.772003E+00
+/scratch2/ptriant/100x500x500/Pf48.bin.f32
+running ZFP
+0.0171509
+Compression Factor =	3.632829
+Time =	7.716000E-01
+STD_DEV =	7.638840E+01
+Time =	3.827000E-01
+STD_DEV =	3.788730E+01
+/scratch2/ptriant/100x500x500/PRECIPf48.bin.f32
+running ZFP
+0.00446789
+Compression Factor =	1514.417252
+Time =	4.840000E-02
+STD_DEV =	4.791602E+00
+Time =	2.830000E-02
+STD_DEV =	2.801703E+00
+/scratch2/ptriant/100x500x500/QCLOUDf48.bin.f32
+running ZFP
+0.00204795
+Compression Factor =	1447.429365
+Time =	4.810000E-02
+STD_DEV =	4.761902E+00
+Time =	2.830000E-02
+STD_DEV =	2.801703E+00
+/scratch2/ptriant/100x500x500/QGRAUPf48.bin.f32
+running ZFP
+0.00469007
+Compression Factor =	1842.570755
+Time =	4.680000E-02
+STD_DEV =	4.633202E+00
+Time =	2.690000E-02
+STD_DEV =	2.663104E+00
+/scratch2/ptriant/100x500x500/QICEf48.bin.f32
+running ZFP
+0.000976562
+Compression Factor =	2003.526206
+Time =	4.370000E-02
+STD_DEV =	4.326303E+00
+Time =	2.610000E-02
+STD_DEV =	2.583905E+00
+/scratch2/ptriant/100x500x500/QRAINf48.bin.f32
+running ZFP
+0.00545537
+Compression Factor =	1686.681959
+Time =	4.700000E-02
+STD_DEV =	4.653002E+00
+Time =	2.760000E-02
+STD_DEV =	2.732403E+00
+/scratch2/ptriant/100x500x500/QSNOWf48.bin.f32
+running ZFP
+0.000976562
+Compression Factor =	2023.308514
+Time =	4.480000E-02
+STD_DEV =	4.435203E+00
+Time =	2.660000E-02
+STD_DEV =	2.633404E+00
+/scratch2/ptriant/100x500x500/QVAPORf48.bin.f32
+running ZFP
+0.0134277
+Compression Factor =	195.370501
+Time =	1.308000E-01
+STD_DEV =	1.294920E+01
+Time =	5.840000E-02
+STD_DEV =	5.781601E+00
+/scratch2/ptriant/100x500x500/TCf48.bin.f32

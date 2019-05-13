@@ -34,7 +34,13 @@ oArr = np.zeros((nz,ny,nx), dtype=np.dtype('<f'))
 
 
 if ZFP:
-	print( 'not yet implemented')
+	print( 'running ZFP')
+
+	cycle(iArr.ctypes.data_as(ctypes.POINTER(ctypes.c_float)),
+		nx,ny,nz, ctypes.c_double(TOL), ITER,
+    oArr.ctypes.data_as(ctypes.POINTER(ctypes.c_float)))
+
+	print(np.max(np.abs(iArr.flatten() - oArr.flatten())))
 
 else:
 	print( 'running SZ')

@@ -154,6 +154,8 @@ void cycle_float(float* iArray, int nx, int ny, int nz, double tolerance, int it
 	int r5=0; int r4=0; int r3=nz; int r2=ny; int r1=nx;
 
 	/* compress multiple times */
+  double astime, aetime;
+  astime = clock();
 	for (i = 0; i < iterations; ++i)
   {
 		stime = clock();
@@ -167,7 +169,10 @@ void cycle_float(float* iArray, int nx, int ny, int nz, double tolerance, int it
 			free(bytes);
 		}	
 	}
+  aetime = clock();
+  cTimesAVG = (aetime - astime) / (CLOCKS_PER_SEC * iterations);
   
+
 	if (bytes == NULL)
 	{
   	fprintf(stderr, "compression failed\n");
@@ -177,6 +182,7 @@ void cycle_float(float* iArray, int nx, int ny, int nz, double tolerance, int it
 	cRatio = inSize / outSize;
 
 	/* decompress multiple times */
+  astime = clock();
 	for (i = 0; i < iterations; ++i)
  	{
 		stime = clock();
@@ -189,6 +195,8 @@ void cycle_float(float* iArray, int nx, int ny, int nz, double tolerance, int it
 			free(data);
 		}
 	}
+  aetime = clock();
+  dTimesAVG = (aetime - astime) / (CLOCKS_PER_SEC * iterations);
 
 	if (data == NULL)
 	{
@@ -205,8 +213,8 @@ void cycle_float(float* iArray, int nx, int ny, int nz, double tolerance, int it
 	free(data);
 	
 	/* calculate avg & stddev for cTime and dTime*/
-  cTimesAVG = calculateAVG(cTimes, iterations);
-  dTimesAVG = calculateAVG(dTimes, iterations);
+  //cTimesAVG = calculateAVG(cTimes, iterations);
+  //dTimesAVG = calculateAVG(dTimes, iterations);
 	cTimesSTDDEV =  calculateSTDDEV(cTimes, iterations);
   dTimesSTDDEV =  calculateSTDDEV(dTimes, iterations);
 

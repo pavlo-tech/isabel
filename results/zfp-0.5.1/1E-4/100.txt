@@ -1,0 +1,17 @@
+/scratch2/ptriant/100x500x500/CLOUDf48.bin.f32
+running ZFP
+1.66297e-05
+Compression Factor =	60.234287
+Time =	1.116000E-01
+STD_DEV =	1.104840E+01
+Time =	6.150000E-02
+STD_DEV =	6.088501E+00
+/scratch2/ptriant/100x500x500/Pf48.bin.f32
+running ZFP
+0.00012207
+Compression Factor =	1.721798
+Time =	1.054000E+00
+STD_DEV =	1.043460E+02
+Time =	6.247000E-01
+STD_DEV =	6.184530E+01
+/scratch2/ptriant/100x500x500/PRECIPf48.bin.f32

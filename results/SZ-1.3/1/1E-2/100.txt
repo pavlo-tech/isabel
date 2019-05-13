@@ -1,0 +1,156 @@
+/scratch2/ptriant/100x500x500/CLOUDf48.bin.f32
+running SZ
+2.04795e-05
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/isabel
+INIT SZ DONE
+MODE= REL
+Compression Factor =	115.000000
+Time =	2.030000E+02
+STD_DEV =	2.009701E+02
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/Pf48.bin.f32
+running SZ
+66.3614
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/isabel
+INIT SZ DONE
+MODE= REL
+Compression Factor =	87.000000
+Time =	5.000000E+02
+STD_DEV =	4.950000E+02
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/PRECIPf48.bin.f32
+running SZ
+7.50586e-05
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/isabel
+INIT SZ DONE
+MODE= REL
+Compression Factor =	341.000000
+Time =	2.000000E+02
+STD_DEV =	1.980000E+02
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QCLOUDf48.bin.f32
+running SZ
+2.04795e-05
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/isabel
+INIT SZ DONE
+MODE= REL
+Compression Factor =	153.000000
+Time =	2.000000E+02
+STD_DEV =	1.980000E+02
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QGRAUPf48.bin.f32
+running SZ
+7.29518e-05
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/isabel
+INIT SZ DONE
+MODE= REL
+Compression Factor =	706.000000
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QICEf48.bin.f32
+running SZ
+8.46363e-06
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/isabel
+INIT SZ DONE
+MODE= REL
+Compression Factor =	249.000000
+Time =	2.000000E+02
+STD_DEV =	1.980000E+02
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QRAINf48.bin.f32
+running SZ
+6.33464e-05
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/isabel
+INIT SZ DONE
+MODE= REL
+Compression Factor =	545.000000
+Time =	1.000000E+02
+STD_DEV =	9.900000E+01
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QSNOWf48.bin.f32
+running SZ
+8.56022e-06
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/isabel
+INIT SZ DONE
+MODE= REL
+Compression Factor =	234.000000
+Time =	2.000000E+02
+STD_DEV =	1.980000E+02
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/QVAPORf48.bin.f32
+running SZ
+0.000204207
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/isabel
+INIT SZ DONE
+MODE= REL
+Compression Factor =	52.000000
+Time =	1.100000E+03
+STD_DEV =	1.089000E+03
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/TCf48.bin.f32
+running SZ
+1.06201
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/isabel
+INIT SZ DONE
+MODE= REL
+Compression Factor =	63.000000
+Time =	7.000000E+02
+STD_DEV =	6.930000E+02
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/Uf48.bin.f32
+running SZ
+0.925808
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/isabel
+INIT SZ DONE
+MODE= REL
+Compression Factor =	33.000000
+Time =	1.600000E+03
+STD_DEV =	1.584000E+03
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/Vf48.bin.f32
+running SZ
+0.937004
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/isabel
+INIT SZ DONE
+MODE= REL
+Compression Factor =	33.000000
+Time =	1.600000E+03
+STD_DEV =	1.584000E+03
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
+/scratch2/ptriant/100x500x500/Wf48.bin.f32
+running SZ
+0.165744
+[SZ] Reading SZ configuration file (./compressors/SZ-1.3/sz.config) ...
+Current working dir: /home/ptriant/Research/isabel
+INIT SZ DONE
+MODE= REL
+Compression Factor =	97.000000
+Time =	4.000000E+02
+STD_DEV =	3.960000E+02
+Time =	0.000000E+00
+STD_DEV =	0.000000E+00
